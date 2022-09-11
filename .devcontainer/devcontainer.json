@@ -1,5 +1,0 @@
-{
-    "name": "Curso Angular",
-    "appPort": [3000,4200],
-    "postCreateCommand": "bash .devcontainer/postCreate.sh"
-  }
