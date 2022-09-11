@@ -25,7 +25,6 @@ export class LibSearchComponent implements OnInit {
       filter(value => value.length > 1),
       debounceTime(200),
       distinctUntilChanged(),
-      // tap(value => console.log(value)),
       switchMap(value => this.http.get(this.SEARCH_URL, {
         params: {
           search: value,

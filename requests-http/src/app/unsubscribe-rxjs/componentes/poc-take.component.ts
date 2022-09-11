@@ -15,7 +15,7 @@ export class PocTakeComponent implements OnInit, OnDestroy {
   nome = 'Componente com take';
   valor: string;
 
-  constructor(private service: EnviarValorService) {}
+  constructor(private service: EnviarValorService) { }
 
   ngOnInit() {
     this.service.getValor()
